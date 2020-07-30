@@ -25,7 +25,8 @@ jobs:
     - name: Intall poetry
       run: |
           curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
-          source ~/.bashrc
+          source ~/.profile
+          source ~/.bash_profile
           poetry --version
     - name: Install dependencies
       run: |
