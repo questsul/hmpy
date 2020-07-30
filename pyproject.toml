@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hmpy"
+version = "0.1.0"
+description = "Wraps HiveMind API"
+authors = ["mateusz.sulek"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "2.22.0"
+responses = "0.10.12"
+
+[tool.poetry.dev-dependencies]
+pytest = "5.3.5"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
